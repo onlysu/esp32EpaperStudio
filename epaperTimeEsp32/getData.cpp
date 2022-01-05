@@ -10,7 +10,7 @@ RTC_DATA_ATTR FutureWeather future; //创建结构体变量 未来
 RTC_DATA_ATTR LifeIndex life_index; //创建结构体变量 未来
 RTC_DATA_ATTR Hitokoto yiyan; //创建结构体变量 一言
 MyEEPROMStruct eeprom;
-String weatherApiKey = "St5brIYqbP5B1Hfmr";
+String weatherApiKey = "yourKey";//if this key error, will fault
 String weatherCity = "苏州";
 
 
